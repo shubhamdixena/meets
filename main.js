@@ -17,6 +17,21 @@
       </ul>
     </div>
     
+    <div id="meetings" style="display: none;">
+      <h1>Meetings</h1>
+      <div id="meeting-1">
+        <h2>Meeting 1</h2>
+        <ul id="meeting-1-students-list">
+        </ul>
+      </div>
+      <div id="meeting-2" style="display: none;">
+        <h2>Meeting 2</h2>
+        <ul id="meeting-2-students-list">
+        </ul>
+      </div>
+      <!-- Add more meeting divs here if needed -->
+    </div>
+    
     <script>
       // Get the form element
       const form = document.getElementById('registration-form');
@@ -46,6 +61,5 @@
         // Show the results
         document.getElementById('results').style.display = 'block';
       });
-    </script>
-  </body>
-</html>
+      
+      //
